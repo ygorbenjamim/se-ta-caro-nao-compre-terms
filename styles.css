@@ -1,0 +1,103 @@
+/* styles.css */
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1000px;
+  width: 90%;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  max-width: 150px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+h1 {
+  color: #007bff;
+  font-size: 24px;
+}
+
+h2 {
+  color: #0056b3;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+/* Estilização do container do app */
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Imagem representativa do app */
+.app-image {
+  max-width: 150px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+/* Informações do app */
+.app-info {
+  text-align: left;
+}
+
+.app-logo {
+  max-width: 120px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: #007bff;
+  font-size: 24px;
+  margin: 5px 0;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
